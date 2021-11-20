@@ -15,7 +15,7 @@ const SingIN: React.FC = () => {
       <SingInImage source={Illustration} resizeMode={"stretch"} />
 
       <SingInContent>
-        <SingInTitle>Organize as suas jogatinas facilmente</SingInTitle>
+        <SingInTitle>Conecte-se e Organize suas partidas</SingInTitle>
         <SingInSubTitle>
           Crie grupos para jogar seus games favoritos com seus amigos
         </SingInSubTitle>

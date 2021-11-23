@@ -4,7 +4,6 @@ export const SingInContainer = styled.View`
   flex: 1;
   align-items: center;
   justify-content: center;
-  background-color: ${({ theme }) => theme.colors.secondary90};
 `;
 
 export const SingInImage = styled.Image`
@@ -25,7 +24,8 @@ export const SingInTitle = styled.Text`
   margin-left: 15%;
   margin-right: 15%;
   margin-bottom: 16px;
-
+  font-family: ${({theme})=>theme.font.title700};
+  line-height: 40px;
 `;
 
 export const SingInSubTitle = styled.Text`
@@ -35,4 +35,6 @@ export const SingInSubTitle = styled.Text`
   margin-left: 10%;
   margin-right: 10%;
   margin-bottom: 60px;
+  font-family: ${({theme})=>theme.font.title500};
+  line-height: 25px;
 `;

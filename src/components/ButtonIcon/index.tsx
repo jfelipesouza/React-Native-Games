@@ -1,14 +1,9 @@
 import React from "react";
-import { TouchableOpacityProps } from "react-native";
-import {
-  ButtonContainer,
-  ButtonImage,
-  ButtonImageWrapper,
-  ButtonText,
-} from "./styled";
-import DiscordIcon from "../../assets/discord.png";
+import { RectButtonProps } from "react-native-gesture-handler";
+import { ButtonContainer, ButtonImageWrapper, ButtonText } from "./styled";
+import DiscordIcon from "../../assets/discord.svg";
 
-type ButtonIconProps = TouchableOpacityProps & {
+type ButtonIconProps = RectButtonProps & {
   buttonText?: string;
 };
 
@@ -16,7 +11,7 @@ const ButtonIcon: React.FC<ButtonIconProps> = ({ buttonText, ...rest }) => {
   return (
     <ButtonContainer {...rest}>
       <ButtonImageWrapper>
-        <ButtonImage source={DiscordIcon} />
+        <DiscordIcon width={50} height={50} />
       </ButtonImageWrapper>
       <ButtonText>{buttonText}</ButtonText>
     </ButtonContainer>

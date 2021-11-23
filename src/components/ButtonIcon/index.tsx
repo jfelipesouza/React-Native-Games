@@ -11,7 +11,7 @@ const ButtonIcon: React.FC<ButtonIconProps> = ({ buttonText, ...rest }) => {
   return (
     <ButtonContainer {...rest}>
       <ButtonImageWrapper>
-        <DiscordIcon width={50} height={50} />
+        <DiscordIcon />
       </ButtonImageWrapper>
       <ButtonText>{buttonText}</ButtonText>
     </ButtonContainer>

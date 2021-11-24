@@ -1,6 +1,6 @@
 import Rankeada from '../assets/ranked.svg';
 import Duelo from '../assets/duel.svg';
-import Fun from '../assets/Fun.svg';
+import Fun from '../assets/fun.svg';
 import Treino from '../assets/training.svg';
 
 
@@ -8,7 +8,7 @@ import Treino from '../assets/training.svg';
 export const categories = [
   {
     id:'1',
-    title:'rankeada',
+    title:'Rankeada',
     icon:Rankeada,
   },
   {

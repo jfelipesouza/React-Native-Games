@@ -15,3 +15,11 @@ export const Header = styled.View`
   align-items: center;
 `;
 
+export const HomeContent = styled.View`
+  margin-top: 42px;
+`;
+
+export const HomeList = styled.FlatList`
+  margin-top:24px;
+  margin-left:20px;
+`;
